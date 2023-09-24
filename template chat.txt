@@ -1,0 +1,11 @@
+client
+autoprefixer axios lodash postcss tailwindcss 
+
+
+api
+bcryptjs cookie-parser cors dotenv express jsonwebtoken ws 
+
+devDependencies :
+@types/cookie-parser @types/jsonwebtoken @types/multer @types/cors prisma
+
+In proident incididunt anim veniam non amet non commodo cupidatat mollit occaecat commodo ullamco magna. Commodo aliqua occaecat irure nulla. Anim ex exercitation ad ea excepteur consectetur minim ex. Non tempor exercitation laboris adipisicing proident esse tempor eiusmod. Id dolore ad nulla proident elit magna. Ex velit non fugiat id nostrud veniam nostrud deserunt ex in deserunt fugiat proident ea.
