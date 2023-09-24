@@ -1,9 +1,9 @@
+import Register from "./Register.jsx"
+
 function App() {
 
   return (
-   
-      <div>hello</div>
-
+    <Register />
   )
 }
 
