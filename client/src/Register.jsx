@@ -1,12 +1,21 @@
+import axios from "axios";
 import { useState } from "react";
 
 export default function Register() {
     const[username, setUsername] = useState('');
     const[password, setPassword] = useState('');
+
+    async function handleSubmit (ev) {
+        ev.preventDefault();
+        const {data} = await axios.post('/register', {username, password});
+        console.log(data)
+    }
+  
+
     return(
         <div className="bg-white dark:bg-slate-800 h-screen flex items-center">
             <div className="w-64 mx-auto text-slate-400 mb-13">
-                <form>
+                <form onSubmit={handleSubmit}>
                     <input 
                     className="mb-2 block dark:bg-slate-900 w-full py-3 px-2 rounded-lg shadow-lg" 
                     placeholder="username" 
